@@ -1,0 +1,88 @@
+.cardList {
+    margin: auto;
+    width: 1400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 9px;
+    border: 1.5px solid #DADADA;
+    border-radius: 24px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #DADADA;
+    padding: 5px 20px 40px 40px;
+
+}
+
+.title {
+    width: 40%;
+}
+
+.title h2 {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 140%;
+    color: #0B090C;
+}
+
+.title p {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 150%;
+    color: #0B090C;
+    opacity: 0.6;
+}
+
+.description {
+    width: 30%;
+}
+
+.description h2 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #3A3A40;
+    padding-bottom: 32px;
+}
+
+.desSpan {
+    display: flex;
+    justify-content: space-between;
+}
+
+.desSpan span {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #09090C;
+    opacity: 0.6;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    padding: 4px 16px;
+    gap: 8px;
+    background: #F2F2F2;
+    border-radius: 16px;
+}
+
+.timer {
+    width: 25%;
+    padding-left: 10%;
+}
+
+.timer button {
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 150%;
+    color: #F5F5F5;
+    background: #09090C;
+    border-radius: 8px;
+    padding: 8px 60px;
+    border: none;
+    margin-top: 10%;
+}
